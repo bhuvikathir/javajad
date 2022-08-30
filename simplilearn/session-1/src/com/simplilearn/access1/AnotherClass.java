@@ -1,0 +1,14 @@
+package com.simplilearn.access1;
+
+public class AnotherClass {
+	public static void main(String[] args) {
+		//trying to access them in same class
+		
+		MyClass obj = new MyClass();//object created for MyClass
+		System.out.println("Public"+obj.numPublic);
+		System.out.println("Default"+obj.numDefault);
+		System.out.println("protected"+obj.numProtected);
+		System.out.println("Private"+obj.numPrivate);
+	}
+	//in same package default public protected is accessible but not private
+}
