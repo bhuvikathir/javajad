@@ -1,1 +1,19 @@
-first test page
+Written a Java code that creates a calculator to perform the four basic arithmetic operations (addition,subtraction,multiplication and division)
+I have submitted two different source codes with two outputs since I have created one with switch case and the other with Loop.
+You must use the following:
+
+
+Have used the following for developing the calculator :
+
+Eclipse/IntelliJ: An IDE to code for the application
+Java: A programming language
+Git: To connect and push files from the local system to GitHub
+GitHub: To store the application code and track its versions
+Core Java concepts: Variables, data types, operators, type casting, control statements, class, objects, access specifiers, and core keywords like final, this, and static
+ 
+
+Following requirements are met:
+
+The versions of the code should be tracked on GitHub repositories.
+The calculator should work properly.
+ 

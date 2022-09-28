@@ -4,13 +4,17 @@ import java.util.Scanner;
 public class CalculatorWithLoop {
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
+	
 	while(true)
 	{
 		System.out.println("Enter two numbers");
-		int num1=sc.nextInt();
-		int num2=sc.nextInt();
+		 int a=sc.nextInt();
+	    double num1=a;
+		 int b=sc.nextInt();
+	    double num2=b;
 		System.out.println("Enter the operator [+,-,*,/]:");
-		char op=sc.next().charAt(0);
+		String function=sc.next();
+		final char op=function .charAt(0);
 		
 		if(op=='+')
 		System.out.println("Addition = "+(num1+num2));
